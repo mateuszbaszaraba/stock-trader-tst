@@ -3,7 +3,7 @@
         <h1>Trade or view your portfolio</h1>
         <h6>You can save & load</h6>
         <hr>
-        <p>Your Funds: {{ funds }}</p>
+        <p>Your Funds: {{ funds | currency }}</p>
     </div>
 </template>
 
